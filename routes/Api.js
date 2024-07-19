@@ -2,8 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const exampleData = {
-    message: 'Hello, Welcome to Framework (respon from API)!',
-    timestamp: new Date().toISOString()
+    message: 'DEV Framework'
 };
 
 router.get('/data', async (req, res) => {

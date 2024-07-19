@@ -3,20 +3,25 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./public/styles/main.css --watch",
+    "start": "node app.js",
+    "dev": "concurrently \"npm run build:css\" \"nodemon app.js\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "autoprefixer": "^10.4.19",
     "axios": "^1.7.2",
     "express": "^4.19.2",
     "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6"
   },
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "nodemon": "^3.1.4"
   }
 }

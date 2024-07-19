@@ -24,10 +24,7 @@ async function fetchData() {
  */
 function getData(content, data) {
     return content.replace(/~DataApi/, `
-		<div class="p-6 bg-white rounded-lg shadow-lg">
-		<p class="text-center">${data.message}</p>
-		<p class="text-center">${data.timestamp}</p>
-		</div>
+		<p class="text-3xl md:text-4xl text-gray-200 text-center font-extrabold">${data.message}</p>
 	`);
 }
 

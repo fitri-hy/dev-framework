@@ -1,5 +1,9 @@
 @pages>
-	<section class="bg-slate-200 flex justify-center items-center min-h-screen w-full">
-		@include '../components/HelloWords.dev'
+	<section class="bg-zinc-800 flex flex-col justify-center items-center min-h-screen w-full p-4">
+		@include '../components/Welcome.dev'
+		<nav class="flex justify-center gap-6 text-gray-200 font-semibold">
+			<a href="/" class="hover:text-yellow-600">Home</a>
+			<a href="/about" class="hover:text-yellow-600">About</a>
+		</nav<
 	</section>
 @pages/>
