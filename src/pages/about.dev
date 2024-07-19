@@ -1,0 +1,5 @@
+@pages>
+	<main class="bg-slate-200 flex justify-center items-center min-h-screen w-full">
+		About Page
+	</main>
+@pages/>

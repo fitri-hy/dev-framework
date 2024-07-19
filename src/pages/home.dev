@@ -1,0 +1,5 @@
+@pages>
+	<section class="bg-slate-200 flex justify-center items-center min-h-screen w-full">
+		@include '../components/HelloWords.dev'
+	</section>
+@pages/>
