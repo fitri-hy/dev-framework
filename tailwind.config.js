@@ -1,7 +1,7 @@
 module.exports = {
     content: [
-        './src/**/*.dev',
-        './controllers/**/*.js',
+        './templates/**/*.dev',
+        './app/controllers/**/*.js',
     ],
     theme: {
         extend: {},

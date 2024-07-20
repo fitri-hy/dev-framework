@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./public/styles/main.css --watch",
+    "build:css": "npx tailwindcss -i ./templates/tailwind.css -o ./public/css/styles.css --watch",
     "start": "node app.js",
     "dev": "concurrently \"npm run build:css\" \"nodemon app.js\""
   },

@@ -10,7 +10,7 @@ const { processFile } = require('../services/Service');
  * @param {object} res - The response object.
  */
 async function renderPage(pagePath, res) {
-    const layoutPath = path.join(__dirname, '..', 'src', 'layout.dev');
+    const layoutPath = path.join(__dirname, '..', '..', 'templates', 'layout.dev');
     try {
         let layoutContent = await processFile(layoutPath);
         const pageContent = await processFile(pagePath);
@@ -24,12 +24,17 @@ async function renderPage(pagePath, res) {
 }
 
 router.get('/', (req, res) => {
-    const homePagePath = path.join(__dirname, '..', 'src', 'pages', 'home.dev');
+    const homePagePath = path.join(__dirname, '..', '..', 'templates', 'pages', 'home.dev');
     renderPage(homePagePath, res);
 });
 
 router.get('/about', (req, res) => {
-    const aboutPagePath = path.join(__dirname, '..', 'src', 'pages', 'about.dev');
+    const aboutPagePath = path.join(__dirname, '..', '..', 'templates', 'pages', 'about.dev');
+    renderPage(aboutPagePath, res);
+});
+
+router.get('/*', (req, res) => {
+    const aboutPagePath = path.join(__dirname, '..', '..', 'templates', 'pages', '404.dev');
     renderPage(aboutPagePath, res);
 });
 
