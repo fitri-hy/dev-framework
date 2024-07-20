@@ -27,18 +27,18 @@ async function processIncludes(content, filePath, processFile) {
  * @returns {string} The content with placeholders replaced.
  */
 function replacePlaceholders(content) {
-    return content.replace(/@pages>/, '<main>')
-                  .replace(/@pages\/>/, '</main>')
-                  .replace(/@layout>/, '<!DOCTYPE html><html><head>')
-                  .replace(/@layout\/>/, '</html>')
+    return content.replace(/@layout>/, '<!DOCTYPE html><html>')
                   .replace(/@head>/, '<head>')
                   .replace(/@head\/>/, '</head>')
                   .replace(/@body/, '<body>')
-                  .replace(/@body\/>/, '</body>')
-                  .replace(/@components>/, '<div>')
-                  .replace(/@components\/>/, '</div>')
+				  .replace(/@pages>/, '')
+                  .replace(/@components>/, '')
+                  .replace(/@components\/>/, '')
+                  .replace(/@pages\/>/, '')
                   .replace(/@script>/, '')
-                  .replace(/@script\/>/, '');
+                  .replace(/@script\/>/, '')
+                  .replace(/@body\/>/, '</body>')
+                  .replace(/@layout\/>/, '</html>');
 }
 
 module.exports = {
