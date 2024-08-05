@@ -30,7 +30,7 @@ function replacePlaceholders(content) {
     return content.replace(/@layout>/, '<!DOCTYPE html><html>')
                   .replace(/@head>/, '<head>')
                   .replace(/@head\/>/, '</head>')
-                  .replace(/@body/, '<body>')
+                  .replace(/@body>/, '<body>')
 				  .replace(/@pages>/, '')
                   .replace(/@components>/, '')
                   .replace(/@components\/>/, '')

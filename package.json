@@ -18,7 +18,8 @@
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.6"
+    "tailwindcss": "^3.4.6",
+    "winston": "^3.13.1"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
