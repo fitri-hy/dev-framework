@@ -1,7 +1,7 @@
 @layout>
-   @body>
 	@include 'partials/head.dev'
-		-> pages
+  @body>
+	-> pages
 	@include 'partials/script.dev'
-   @body/>
+  @body/>
 @layout/>
