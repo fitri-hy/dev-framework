@@ -50,7 +50,7 @@ DEV Framework/
 │   │
 │   ├── pages/
 │   │   ├── home.dev
-│   │   └── about.dev
+│   │   └── to-do-list.dev
 │   │
 │   ├── partials/
 │   │   ├── head.dev
@@ -67,6 +67,10 @@ DEV Framework/
 ├── README.md
 └── LICENSE
 ```
+
+## API working concept
+
+`route/Api.js -> controllers/ApiController/js -> services/Service.js -> templates/page.dev`
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:

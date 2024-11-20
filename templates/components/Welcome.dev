@@ -1,7 +1,0 @@
-@components>
-	<div class="w-full max-w-xl p-6 text-gray-200">
-		<img class="h-36 w-36 m-auto" src="/images/logo.png">
-		<p class="text-center">Welcome</p>
-		~DataApi
-	</div>
-@components/>

@@ -10,12 +10,12 @@ exports.Home = async (req, res) => {
     }
 };
 
-exports.About = async (req, res) => {
+exports.ToDo = async (req, res) => {
     try {
-        const pagePath = path.join(templates, 'pages/about.dev');
+        const pagePath = path.join(templates, 'pages/todo.dev');
         await DevPage(pagePath, res);
     } catch (err) {
-        res.status(500).send('Error rendering about page');
+        res.status(500).send('Error rendering todo page');
     }
 };
 

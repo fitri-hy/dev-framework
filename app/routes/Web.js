@@ -5,7 +5,7 @@ const { DevPage, templates } = require('../utils/Route');
 const PageController = require('../controllers/PageController');
 
 router.get('/', PageController.Home);
-router.get('/about', PageController.About);
+router.get('/todo', PageController.ToDo);
 router.get('/*', PageController.NotFound);
 
 module.exports = router;

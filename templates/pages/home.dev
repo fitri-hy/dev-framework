@@ -1,9 +1,13 @@
 @pages>
 	<section class="bg-zinc-800 flex flex-col justify-center items-center min-h-screen w-full p-4">
-		@include '../components/Welcome.dev'
+		<div class="w-full max-w-xl p-6 text-gray-200">
+		<img class="h-36 w-36 m-auto" src="/images/logo.png">
+		<p class="text-center">Welcome</p>
+		<p class="text-3xl md:text-4xl text-gray-200 text-center font-extrabold">Home Pages</p>
+	</div>
 		<nav class="flex justify-center gap-6 text-gray-200 font-semibold">
 			<a href="/" class="hover:text-yellow-600">Home</a>
-			<a href="/about" class="hover:text-yellow-600">About</a>
+			<a href="/todo" class="hover:text-yellow-600">To-DO List</a>
 		</nav>
 	</section>
 @pages/>

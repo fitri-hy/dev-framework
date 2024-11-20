@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { fetchData, getData } = require('../controllers/api/ApiController');
+const { ToDoList } = require('../controllers/api/ApiController');
 const { process, holders } = require('../utils/Base');
 
 async function processFile(filePath) {
@@ -9,8 +9,7 @@ async function processFile(filePath) {
         content = await process(content, filePath, processFile);
         content = holders(content);
 
-        const data = await fetchData();
-        content = getData(content, data);
+        content = await ToDoList(content);
 
         return content;
     } catch (error) {

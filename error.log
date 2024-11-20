@@ -1,0 +1,121 @@
+2024-11-20T01:27:38.972Z error: ReferenceError: localStorage is not defined
+    at getTodos (C:\xampp\htdocs\zzz\app\routes\Api.js:6:17)
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:17:17
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+2024-11-20T01:27:39.043Z error: ReferenceError: localStorage is not defined
+    at getTodos (C:\xampp\htdocs\zzz\app\routes\Api.js:6:17)
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:17:17
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+2024-11-20T01:28:47.112Z error: ReferenceError: localStorage is not defined
+    at getTodos (C:\xampp\htdocs\zzz\app\routes\Api.js:6:17)
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:17:17
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+2024-11-20T01:28:47.173Z error: ReferenceError: localStorage is not defined
+    at getTodos (C:\xampp\htdocs\zzz\app\routes\Api.js:6:17)
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:17:17
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+2024-11-20T01:28:56.627Z error: ReferenceError: localStorage is not defined
+    at getTodos (C:\xampp\htdocs\zzz\app\routes\Api.js:6:17)
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:17:17
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+2024-11-20T01:28:56.704Z error: ReferenceError: localStorage is not defined
+    at getTodos (C:\xampp\htdocs\zzz\app\routes\Api.js:6:17)
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:17:17
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+2024-11-20T01:29:42.638Z error: ReferenceError: localStorage is not defined
+    at getTodos (C:\xampp\htdocs\zzz\app\routes\Api.js:6:17)
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:17:17
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+2024-11-20T01:29:42.696Z error: ReferenceError: localStorage is not defined
+    at getTodos (C:\xampp\htdocs\zzz\app\routes\Api.js:6:17)
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:17:17
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+2024-11-20T01:35:40.862Z error: TypeError: Cannot destructure property 'task' of 'req.body' as it is undefined.
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:14:11
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:47:12)
+2024-11-20T01:38:08.212Z error: TypeError: Cannot destructure property 'task' of 'req.body' as it is undefined.
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:16:13
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:47:12)
+2024-11-20T01:42:18.037Z error: ReferenceError: todos is not defined
+    at C:\xampp\htdocs\zzz\app\routes\Api.js:5:26
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\xampp\htdocs\zzz\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\xampp\htdocs\zzz\node_modules\express\lib\router\layer.js:95:5)
+    at C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\xampp\htdocs\zzz\node_modules\express\lib\router\index.js:47:12)

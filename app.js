@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const bodyParser = require('body-parser');
 const logger = require('./app/Dev');
 const apiRoute = require('./app/routes/Api');
 const webRoute = require('./app/routes/Web');
@@ -7,6 +8,8 @@ const webRoute = require('./app/routes/Web');
 const app = express();
 const port = 3000;
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use((req, res, next) => {
     logger.info(`${req.method} ${req.url}`);
