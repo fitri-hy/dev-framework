@@ -17,10 +17,6 @@ app.use('/api', apiRoute);
 app.use('/', webRoute);
 app.use('/*', webRoute);
 
-app.get('/error', (req, res) => {
-    throw new Error('Contoh error');
-});
-
 app.use((err, req, res, next) => {
     logger.error(err.stack);
     res.status(500).send('Something broke!');

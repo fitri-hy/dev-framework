@@ -1,18 +1,13 @@
 const fs = require('fs');
 const path = require('path');
-const { fetchData, getData } = require('../controllers/ApiController');
-const { processIncludes, replacePlaceholders } = require('../utils/Base');
+const { fetchData, getData } = require('../controllers/api/ApiController');
+const { process, holders } = require('../utils/Base');
 
-/**
- * Processes a file by replacing placeholders and handling includes.
- * @param {string} filePath - The path to the file to process.
- * @returns {Promise<string>} The processed content of the file.
- */
 async function processFile(filePath) {
     try {
         let content = fs.readFileSync(filePath, 'utf-8');
-        content = await processIncludes(content, filePath, processFile);
-        content = replacePlaceholders(content);
+        content = await process(content, filePath, processFile);
+        content = holders(content);
 
         const data = await fetchData();
         content = getData(content, data);

@@ -22,7 +22,9 @@ DEV Framework/
 ├── app/
 │   │
 │   ├── controllers/
-│   │	└── ApiController.js
+│   │	└── api/
+│   │	│	└── ApiController.js
+│   │	└── PageController.js
 │   │
 │   ├── routes/
 │   │	├── Api.js
@@ -32,6 +34,7 @@ DEV Framework/
 │   │	└── Service.js
 │   │
 │   └── utils/
+│   │	├── Route.js
 │    	└── Base.js
 │
 ├── public/
